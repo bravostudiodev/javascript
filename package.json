@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-bstd-base",
+  "version": "1.0.0",
+  "description": "Shareable ESlint config based on AirBnb's coding standard and Idiomatic's rules",
+  "homepage": "",
+  "author": {
+    "name": "Vladimir Cutkovic",
+    "email": "vladimir.cutkovic@gmail.com",
+    "url": "www.bytesimple.com"
+  },
+  "files": [
+    "lib",
+    "rules",
+    "legacy.js"
+  ],
+  "main": "./index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "http://vladimir@stash.futureads.com/scm/ad/ad.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
