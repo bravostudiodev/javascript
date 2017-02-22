@@ -29,7 +29,7 @@ module.exports = {
     'eol-last': 2,
 
     // require function expressions to have a name
-    'func-names': 1,
+    'func-names': 0,
 
     // enforces use of function declarations or expressions
     'func-style': 0,
@@ -78,7 +78,7 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
-    'max-len': [2, 120, 2, {
+    'max-len': [2, 150, 2, {
       ignoreUrls: true,
       ignoreComments: false
     }],
