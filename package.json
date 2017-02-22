@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bstd-base",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shareable ESlint config based on AirBnb's coding standard and Idiomatic's rules",
   "homepage": "",
   "author": {
