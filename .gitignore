@@ -1,0 +1,8 @@
+**/.idea/**
+**.iml
+**/target/**
+**/nbproject/**
+**/node_modules/**
+
+jdk/**
+node/**
