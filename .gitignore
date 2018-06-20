@@ -1,8 +1,7 @@
-**/.idea/**
-**.iml
-**/target/**
-**/nbproject/**
-**/node_modules/**
+# gitignore
 
-jdk/**
-node/**
+node_modules
+
+# Only apps should have lockfiles
+yarn.lock
+package-lock.json
